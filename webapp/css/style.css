@@ -1,1 +1,15 @@
 /* Enter your custom styles here */
+.preencimentoBox{
+    background-color: black; 
+    margin-top: 100px;  
+    
+}
+
+.corTextBox{
+    color: white;
+}
+.navBar{
+    color: #27262a;
+    font-weight: 700;
+    font-size: 14px;
+}
