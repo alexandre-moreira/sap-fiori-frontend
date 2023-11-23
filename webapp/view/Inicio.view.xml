@@ -9,6 +9,8 @@
                 <Link text="{i18n>textFilmes}" />
                 <Link text="{i18n>textRecentes}" />
                 <Link text="{i18n>textMinhaLista}" />
+                <ToolbarSpacer />
+                <SearchField width="30%"></SearchField>
             </Toolbar>
         </subHeader>
         <content />
