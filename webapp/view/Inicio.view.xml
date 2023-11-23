@@ -2,6 +2,15 @@
     xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
     xmlns="sap.m">
     <Page id="page" title="{i18n>title}">
+        <subHeader>
+            <Toolbar>
+                <Link text="{i18n>textInicio}" />
+                <Link text="{i18n>textSeries}" />
+                <Link text="{i18n>textFilmes}" />
+                <Link text="{i18n>textRecentes}" />
+                <Link text="{i18n>textMinhaLista}" />
+            </Toolbar>
+        </subHeader>
         <content />
     </Page>
 </mvc:View>
