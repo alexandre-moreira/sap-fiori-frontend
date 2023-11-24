@@ -3,7 +3,7 @@
     xmlns:layout="sap.ui.layout"
     xmlns="sap.m">
     <Page id="page" title="{i18n>title}">
-        <subHeader>
+        <subHeader >
             <Toolbar >
                 <Link class="navBar" text="{i18n>textInicio}" />
                 <Link class="navBar" text="{i18n>textSeries}" />
@@ -14,8 +14,8 @@
                 <SearchField width="30%"></SearchField>
             </Toolbar>
         </subHeader>
-        <content>
-            <layout:Grid>
+        <content >
+            <layout:Grid class="main">
                 <VBox class="preencimentoBox">
                     <Image src="../assets/13reasons.jpeg" width="100%" height="100%"></Image>
                     <Text class="corTextBox" text="6 temporadas" />

@@ -1,7 +1,12 @@
 /* Enter your custom styles here */
+.main{
+    margin-top: 14px;
+}
+.header:first-child{
+    margin-bottom: 84px;
+}
 .preencimentoBox{
     background-color: black; 
-    margin-top: 100px;  
     
 }
 
