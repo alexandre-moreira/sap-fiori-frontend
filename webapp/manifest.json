@@ -57,7 +57,12 @@
         "settings": {
           "bundleName": "projetonetflix.i18n.i18n"
         }
+      },
+      "ArquivoNetflix": {
+        "type":"sap.ui.model.json.JSONModel",
+        "uri":"model/dadosnetflix.json"
       }
+
     },
     "resources": {
       "css": [

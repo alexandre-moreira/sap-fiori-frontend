@@ -9,7 +9,9 @@
     background-color: black; 
     
 }
-
+.rodapeTexto{
+    margin-bottom: 8px;
+}
 .corTextBox{
     color: white;
 }
@@ -17,4 +19,7 @@
     color: #27262a;
     font-weight: 700;
     font-size: 14px;
+}
+.logo{
+   
 }

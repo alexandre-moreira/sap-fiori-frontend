@@ -15,60 +15,16 @@
             </Toolbar>
         </subHeader>
         <content >
-            <layout:Grid class="main">
+            <layout:Grid class="main" content="{ArquivoNetflix>/titles}">
                 <VBox class="preencimentoBox">
-                    <Image src="../assets/13reasons.jpeg" width="100%" height="100%"></Image>
-                    <Text class="corTextBox" text="6 temporadas" />
-                    <Text class="corTextBox" text="13 Reasons Why é uma série de televisão americana baseada no livro Thirteen Reasons Why, de Jay Asher, e adaptado por Brian"/>
-                     <Text class="corTextBox" text="Comédia para toda familia"/>
+                    <Image src="{ArquivoNetflix>jawSummary/backgroundImage/url}" width="300px" height="350px"></Image>
+                    <Image class="logo" src="{ArquivoNetflix>jawSummary/logoImage/url}"   width="30%" height="40%" />
+                    <Text class="corTextBox rodapeTexto" text="{ArquivoNetflix>jawSummary/title}" />
+                    <Text class="corTextBox rodapeTexto" text="{ArquivoNetflix>jawSummary/numSeasonsLabel}" />
+                    <Text class="corTextBox rodapeTexto" text="{ArquivoNetflix>jawSummary/synopsis}"/>
+                    <Text class="corTextBox rodapeTexto" text="{ArquivoNetflix>jawSummary/genres/1/name}"/>
+                    <Text class="corTextBox rodapeTexto" text="{ArquivoNetflix>jawSummary/genres/2/name}"/>
                 </VBox>
-
-                <VBox class="preencimentoBox">
-                    <Image src="../assets/warriornun.png" width="100%" height="100%"></Image>
-                    <Text class="corTextBox" text="2 temporadas" />
-                    <Text class="corTextBox" text="Uma jovem acorda no necrotério com superpoderes e descobre que faz parte de uma seita secreta de freiras caçadoras de demônios."/>
-                     <Text class="corTextBox" text="Comédia para toda familia"/>
-                </VBox>
-
-                <VBox class="preencimentoBox">
-                    <Image src="../assets/stranger.png" width="100%" height="90%"></Image>
-                    <Text class="corTextBox" text="6 temporadas" />
-                    <Text class="corTextBox" text="Um grupo de amigos se envolve em uma série de eventos sobrenaturais. Eles enfrentam criaturas monstruosas, dimensões paralelas. "/>
-                     <Text class="corTextBox" text="Comédia para toda familia"/>
-                </VBox>
-                <VBox class="preencimentoBox">
-                    <Image src="../assets/birdbox.png" width="100%" height="100%"></Image>
-                    <Text class="corTextBox" text="6 temporadas" />
-                    <Text class="corTextBox" text="Thomas Shelby (Cillian Murphy), um jovem cruel e violento que, após servir no exército britânico durante a Primeira Guerra Mundial"/>
-                     <Text class="corTextBox" text="Comédia para toda familia"/>
-                </VBox>
-                <VBox class="preencimentoBox">
-                    <Image src="../assets/vandinha.png" width="100%" height="100%"></Image>
-                    <Text class="corTextBox" text="6 temporadas" />
-                    <Text class="corTextBox" text="13 Reasons Why é uma série de televisão americana baseada no livro Thirteen Reasons Why, de Jay Asher, e adaptado por Brian"/>
-                     <Text class="corTextBox" text="Comédia para toda familia"/>
-                </VBox>
-
-                <VBox class="preencimentoBox">
-                    <Image src="../assets/thewitcher2.png" width="100%" height="100%"></Image>
-                    <Text class="corTextBox" text="2 temporadas" />
-                    <Text class="corTextBox" text="Uma jovem acorda no necrotério com superpoderes e descobre que faz parte de uma seita secreta de freiras caçadoras de demônios."/>
-                     <Text class="corTextBox" text="Comédia para toda familia"/>
-                </VBox>
-
-                <VBox class="preencimentoBox">
-                    <Image src="../assets/round6.png" width="100%" height="90%"></Image>
-                    <Text class="corTextBox" text="6 temporadas" />
-                    <Text class="corTextBox" text="Um grupo de amigos se envolve em uma série de eventos sobrenaturais. Eles enfrentam criaturas monstruosas, dimensões paralelas. "/>
-                     <Text class="corTextBox" text="Comédia para toda familia"/>
-                </VBox>
-                <VBox class="preencimentoBox">
-                    <Image src="../assets/thecrown.png" width="100%" height="100%"></Image>
-                    <Text class="corTextBox" text="6 temporadas" />
-                    <Text class="corTextBox" text="Thomas Shelby (Cillian Murphy), um jovem cruel e violento que, após servir no exército britânico durante a Primeira Guerra Mundial"/>
-                     <Text class="corTextBox" text="Comédia para toda familia"/>
-                </VBox>
-                
             </layout:Grid>
         </content>
     </Page>
