@@ -20,6 +20,8 @@
     font-weight: 700;
     font-size: 14px;
 }
-.logo{
-   
+.margemLogo{
+   position: relative;
+   top: -60px;
+   left: 14px;
 }

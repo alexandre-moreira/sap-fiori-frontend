@@ -5,20 +5,20 @@
     <Page id="page" title="{i18n>title}">
         <subHeader >
             <Toolbar >
-                <Link class="navBar" text="{i18n>textInicio}" />
+                <Link class="navBar" text="{ModeloMenu/primeiro}" />
                 <Link class="navBar" text="{i18n>textSeries}" />
                 <Link class="navBar" text="{i18n>textFilmes}" />
                 <Link class="navBar" text="{i18n>textRecentes}" />
                 <Link class="navBar" text="{i18n>textMinhaLista}" />
                 <ToolbarSpacer />
-                <SearchField width="30%"></SearchField>
+                <SearchField width="30%" search="onApertarBuscar" id="inputBuscar"></SearchField>
             </Toolbar>
         </subHeader>
         <content >
             <layout:Grid class="main" content="{ArquivoNetflix>/titles}">
                 <VBox class="preencimentoBox">
                     <Image src="{ArquivoNetflix>jawSummary/backgroundImage/url}" width="300px" height="350px"></Image>
-                    <Image class="logo" src="{ArquivoNetflix>jawSummary/logoImage/url}"   width="30%" height="40%" />
+                    <Image class="margemLogo" src="{ArquivoNetflix>jawSummary/logoImage/url}"   width="30%" height="40%" />
                     <Text class="corTextBox rodapeTexto" text="{ArquivoNetflix>jawSummary/title}" />
                     <Text class="corTextBox rodapeTexto" text="{ArquivoNetflix>jawSummary/numSeasonsLabel}" />
                     <Text class="corTextBox rodapeTexto" text="{ArquivoNetflix>jawSummary/synopsis}"/>
